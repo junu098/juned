@@ -118,7 +118,7 @@ Host Locally 🤕
    ```  
 5. Clone the repository by :
 ```sh
-   git clone https://github.com/StormBeatz/AudifyMusic && cd AudifyMusic
+   git clone https://github.com/mrnick82/nick && cd nick
    ``` 
 6. Install requirements by :
 ```sh
@@ -156,34 +156,6 @@ Support Group
 <a href="https://t.me/NICKPAPAJI1"><img src="https://img.shields.io/badge/Telegram-Updates%20Channel-blue.svg?logo=telegram"></a>  
 <a href="https://t.me/NICKMUSICROBOTCHAT"><img src="https://img.shields.io/badge/Telegram-Support%20Group-blue.svg?logo=telegram"></a>
 </p>
-
----
-
-### 🤝 Contributing
-
-Found a Bug ? 🐛 
-
-We welcome contributions to the Audify Music Bot project. If you'd like to contribute, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch with a meaningful name.
-3. Make your changes and commit them with a descriptive commit message.
-4. Open a pull request against our `main` branch.
-5. Our team will review your changes and provide feedback.
-
-For more details, reach out us on telegram.
-
----
-
-### 📜 License
-
-This project is licensed under the MIT License. For more details, see the [LICENSE](https://github.com/mrnick82/nick/blob/main/LICENSE) file.
-
----
-
-## Credits  
-
-- [Yukki Music](https://github.com/TeamYukki/YukkiMusicBot) & [TgMusicBot](https://github.com/AshokShau/TgMusicBot) & [AviaxMusic](https://github.com/CyberPixelPro/AviaxMusic) & [AnonXMusic](https://github.com/AnonymousX1025/AnonXMusic) For their Source Codes.
 
 ---
 
