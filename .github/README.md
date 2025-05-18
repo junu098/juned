@@ -5,7 +5,7 @@ Nick Music Robot 🎧
 ---
 
 <p align="center">
-   <img src="https://graph.org/file/e645d6cc03374098848c6-85c88511cd33000c96.jpg">
+   <img src="https://graph.org/file/a133c2a874ee2a504d242-4a7990301ded8f5123.jpg">
  </p>
 
 <p align="center">
