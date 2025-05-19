@@ -37,7 +37,7 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "LAUDA PAKAD MERA 💀",
+    "https://github.com/mrnick82/nick",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
