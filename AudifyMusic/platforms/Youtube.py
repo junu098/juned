@@ -11,6 +11,8 @@ from youtubesearchpython.__future__ import VideosSearch
 from AudifyMusic.utils.database import is_on_off
 from AudifyMusic.utils.formatters import time_to_seconds
 
+proxy = "http://57.129.81.201:8080"
+
 async def shell_cmd(cmd):
     proc = await asyncio.create_subprocess_shell(
         cmd,
@@ -252,6 +254,7 @@ class YouTubeAPI:
                 "quiet": True,
                 "no_warnings": True,
                 "cookiefile": cookies_file,
+                "proxy": proxy,
             }
             x = yt_dlp.YoutubeDL(ydl_optssx)
             info = x.extract_info(link, False)
@@ -270,6 +273,7 @@ class YouTubeAPI:
                 "quiet": True,
                 "no_warnings": True,
                 "cookiefile": cookies_file,
+                "proxy": proxy,
             }
             x = yt_dlp.YoutubeDL(ydl_optssx)
             info = x.extract_info(link, False)
@@ -291,7 +295,8 @@ class YouTubeAPI:
                 "no_warnings": True,
                 "prefer_ffmpeg": True,
                 "merge_output_format": "mp4",
-                "cookiefile": cookies_file,  # Add cookie file option here
+                "cookiefile": cookies_file,                 # Add cookie file option here
+                "proxy": proxy,
             }
             x = yt_dlp.YoutubeDL(ydl_optssx)
             x.download([link])
@@ -314,6 +319,7 @@ class YouTubeAPI:
                     }
                 ],
                 "cookiefile": cookies_file,  # Add cookie file option here
+                "proxy": proxy,
             }
             x = yt_dlp.YoutubeDL(ydl_optssx)
             x.download([link])
